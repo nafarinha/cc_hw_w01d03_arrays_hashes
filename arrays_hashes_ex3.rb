@@ -17,10 +17,12 @@ united_kingdom = [
   }
 ]
 
+puts "","Answer 1:"
 # 3.1
 united_kingdom[1][:capital] = "Cardiff"
 p united_kingdom[1]
 
+puts "","Answer 2:"
 #3.2
 united_kingdom.push(
   {
@@ -32,11 +34,13 @@ united_kingdom.push(
 
 p united_kingdom
 
+puts "","Answer 3:"
 # 3.3
 for country in united_kingdom
   p country[:name]
 end
 
+puts "","Answer 4:"
 # 3.4
 total_population = 0
 

@@ -56,33 +56,42 @@ users = {
   }
 }
 
+puts "","Answer 1:"
 # 2.1
 p users["Jonathan"][:twitter]
 
+puts "","Answer 2:"
 # 2.2
 p users["Erik"][:home_town]
 
+puts "","Answer 3:"
 # 2.3
 p users["Erik"][:lottery_numbers]
 
+puts "","Answer 4:"
 # 2.4
 p users["Avril"][:pets][0][:species]
 
+puts "","Answer 5:"
 # 2.5
 p users["Erik"][:lottery_numbers].min()
 
+puts "","Answer 6:"
 # 2.6
 # solution found on stackoverflow.com/a/21612139
 p users["Avril"][:lottery_numbers].find_all{ |n| n % 2 == 0 }
 
+puts "","Answer 7:"
 # 2.7
 users["Erik"][:lottery_numbers].push( 7 )
 p users["Erik"][:lottery_numbers]
 
+puts "","Answer 8:"
 # 2.8
 users["Erik"][:home_town] = "Edinburgh"
 p users["Erik"][:home_town]
 
+puts "","Answer 9:"
 # 2.9
 users["Erik"][:pets] <<
   {
@@ -91,12 +100,13 @@ users["Erik"][:pets] <<
   }
 p users["Erik"][:pets]
 
+puts "","Answer 10:"
 # 2.10a
 # Litteraly just adding the user, nothing else
 users["Jack"] = nil
 p users
 
-
+puts "","Answer 10:"
 # 2.10b
 # Adding more information about new user
 users["Bob"] =
