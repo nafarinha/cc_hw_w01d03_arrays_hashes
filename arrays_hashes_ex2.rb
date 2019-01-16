@@ -91,6 +91,24 @@ users["Erik"][:pets] <<
   }
 p users["Erik"][:pets]
 
-# 2.10
+# 2.10a
+# Litteraly just adding the user, nothing else
 users["Jack"] = nil
+p users
+
+
+# 2.10b
+# Adding more information about new user
+users["Bob"] =
+  {
+    :twitter => "bob10k",
+    :lottery_numbers => [10, 17, 37, 38,6, 22],
+    :home_town => "Glasgow",
+    :pets => [
+      {
+        :name => "Sylvester",
+        :species => "cat"
+      }
+    ]
+  }
 p users
