@@ -81,6 +81,19 @@ puts "","Answer 6:"
 # solution found on stackoverflow.com/a/21612139
 p users["Avril"][:lottery_numbers].find_all{ |n| n % 2 == 0 }
 
+puts "","Answer 6:"
+# solution solely based on concepts covered so far during course
+avril_lottery = users["Avril"][:lottery_numbers]
+for number in avril_lottery
+  if number.even?
+    p number
+  else
+    nil
+  end
+end
+
+
+
 puts "","Answer 7:"
 # 2.7
 users["Erik"][:lottery_numbers].push( 7 )
