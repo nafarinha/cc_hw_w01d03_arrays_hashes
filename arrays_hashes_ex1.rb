@@ -38,12 +38,24 @@ puts "","Answer 7:"
 num_stops = stops.length()
 p num_stops
 
+=begin
+# from the homework solution
+stops.size()
+stops.count()
+=end
+
 puts "","Answer 8:"
 # 1.8
 p stops[2]
 p stops.at(2)
 p stops.fetch(2)
 p stops.include?("Falkirk High")
+
+=begin
+# from the homework solution
+stops[-5]
+stops.at(-5)
+=end
 
 puts "","Answer 9:"
 # 1.9
