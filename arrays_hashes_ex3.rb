@@ -34,6 +34,16 @@ united_kingdom.push(
 
 p united_kingdom
 
+=begin
+# solution from classnotes homework answers
+northern_ireland = {
+  name: "Northern Ireland",
+  population: 1811000,
+  capital: "Belfast"
+}
+united_kingdom.push(northern_ireland)
+=end
+
 puts "","Answer 3:"
 # 3.3
 for country in united_kingdom
