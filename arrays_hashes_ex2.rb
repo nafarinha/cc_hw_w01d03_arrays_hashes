@@ -92,6 +92,31 @@ for number in avril_lottery
   end
 end
 
+=begin
+#Solution from classnotes homework answers
+result = []
+for number in users["Avril"][:lottery_numbers]
+	result << number if number.even?
+end
+p result
+
+# OR
+
+def evil_even_numbers(array_of_numbers)
+  result = []
+  for number in array_of_numbers
+    result.push(number) if(number.even?)
+  end
+
+  return result
+end
+
+array = users["Avril"][:lottery_numbers]
+evens = evil_even_numbers(array)
+
+p evens
+
+=end
 
 
 puts "","Answer 7:"
